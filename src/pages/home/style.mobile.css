@@ -1,0 +1,70 @@
+@media (max-width: 600px) {
+	
+	.hero-section	{
+		flex-direction: column;
+		height: fit-content;
+	}
+
+	.hero-section-left, .hero-section-right {
+		width: 100%;
+	}
+
+	.hero-section-left {
+		padding-top: 120px;
+	}
+
+	.hsl-cnt {
+		max-width: 86%;
+	}
+
+	.benefits-top {
+		flex-direction: column;
+	}
+
+	.benefits-top > span {
+		width: 100% !important;
+	}
+
+	.benefits-cnt {
+		flex-direction: column;
+		width: 100%;
+		gap: 12px;
+	}
+
+	.benefit-card {
+		width: 100%;
+		border-radius: 4px;
+		min-height: 180px;
+	}
+
+	.hsl-bottom, .hsl-extra-info {
+		display: none;
+	}
+
+	.reasons {
+		height: fit-content;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.reasons-img {
+		width: 100%;
+	}
+
+	.reasons-img > img {
+		width: 180%;
+	}
+
+	.reasons-cnt {
+		width: 100%;
+	}
+
+	.reasons-cnt > button {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.footer-items {
+		/*flex-wrap: wrap;*/
+	}
+}

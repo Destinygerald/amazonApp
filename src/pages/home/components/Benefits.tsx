@@ -1,5 +1,6 @@
 import '../style.css'
 import '../style.mobile.css'
+// import { IconType } from 'react-icons'
 import { GiPresent } from 'react-icons/gi'
 import { MdDiscount } from 'react-icons/md'
 import { RiEarthFill } from 'react-icons/ri'
@@ -28,7 +29,13 @@ const AllBenefits = [
 	}
 ]
 
-function BenefitCard ({ icon, title, content }) {
+type BenefitCardType = {
+	icon: any,
+	title: string,
+	content: string
+}
+
+function BenefitCard ({ icon, title, content }: BenefitCardType) {
 	return (
 		<div className='benefit-card'>
 			<span> {icon} </span>

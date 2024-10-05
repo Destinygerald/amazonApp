@@ -51,10 +51,10 @@ export function Benefits () {
 	return (
 		<div className='benefits'>
 			<div className='benefits-top'>
-				<span> Baby Registry Benefits </span>
+				<span> Union And Nest Registry Benefits </span>
 
 				<span>
-					lorem ipsum folsdfgh fghjmk f jkg hb h mj mc hv lorem ipsum folsdfgh fghjmk f jkg hb h mj mc hv
+					We Provide our Best services and Products for your Weddings and Baby Registry
 				</span>
 			</div>
 

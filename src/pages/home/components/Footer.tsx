@@ -4,7 +4,7 @@ import '../style.mobile.css'
 export function Footer () {
 	return (
 		<div className='footer'>
-			<span className='logo'>BabyBuzz</span>
+			<span className='logo'>Union&Nest</span>
 			<span> Everything you are looking for, All in one place. </span>
 
 			<div className='footer-items'>

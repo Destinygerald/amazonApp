@@ -19,10 +19,15 @@
 
 	.benefits-top {
 		flex-direction: column;
+		gap: 8px;
 	}
 
 	.benefits-top > span {
 		width: 100% !important;
+	}
+
+	.benefits-top > span:first-child {
+		line-height: 2.4rem;
 	}
 
 	.benefits-cnt {
@@ -39,6 +44,36 @@
 
 	.hsl-bottom, .hsl-extra-info {
 		display: none;
+	}
+
+	.best-seller {
+		height: fit-content;
+	}
+
+	.best-seller-btns {
+		border-width: 1px;
+	}
+
+	.best-seller-btm {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.best-seller-btm > div:first-child {
+		width: 100% ;
+		max-width: 100%;
+		display: none;
+	}
+
+	.best-seller-list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 12px;
+		width: 100%;
+	}
+
+	.best-seller-card {
+		width: 100%;
 	}
 
 	.reasons {

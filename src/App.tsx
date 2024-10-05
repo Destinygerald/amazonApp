@@ -1,12 +1,15 @@
 import HomePage from './pages/home/Page.tsx'
+// import { PopupContextProvider } from './context/PopupContext.tsx'
 import './App.css'
 
 function App() {
 
   return (
-    <div className='app'>
-      <HomePage />
-    </div>
+    // <PopupContextProvider>
+      <div className='app'>
+        <HomePage />
+      </div>
+    // </PopupContextProvider>
   )
 }
 

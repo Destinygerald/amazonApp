@@ -1,20 +1,29 @@
 import '../style.css'
 import '../style.mobile.css'
-import img1 from '/images/IMG-20241003-WA0053.jpg'
+import img1 from '/images/images (58).jpeg'
 import img2 from '/images/IMG-20241003-WA0056.jpg'
+// import { PopupContextFunction } from '../../../context/PopupContext.tsx'
 
 function HeroSectionLeft () {
+
+	// const { openPopup } = PopupContextFunction()
+
+	function handleClick () {
+		// openPopup()
+		return;
+	}
+
 	return (
 		<div className='hero-section-left'>
 			<div className='hsl-cnt'>
-				<div>Welcome to your One-Stop Baby Registry</div>
+				<div>Welcome to your One-Stop Registry Service</div>
 				<span> Everything you are looking for. All in one place. </span>
-				<button> Create your Registry </button>
+				<button onClick={handleClick}> Create your Registry </button>
 			</div>
 
 			<div className='hsl-extra-info'>
 				<span> 800+ </span>
-				<span> Baby Essential Products </span>
+				<span> Baby and Weddings Essential Products </span>
 			</div>
 
 			<div className='hsl-bottom'>
@@ -26,7 +35,7 @@ function HeroSectionLeft () {
 					<span> Baby Craddle </span>
 
 					<span>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur.
+						Two in one Baby Walker with a year warranty
 					</span>
 
 					<span> $12.00 </span>

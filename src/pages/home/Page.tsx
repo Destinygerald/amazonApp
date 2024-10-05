@@ -3,7 +3,8 @@ import './style.mobile.css'
 import { Navbar } from './components/Navbar.tsx'
 import { HeroSection } from './components/HeroSection.tsx'
 import { Benefits } from './components/Benefits.tsx'
-// import { BestSellers } from './components/BestSellers.tsx'
+// import { Services } from './components/Services.tsx'
+import { BestSellers } from './components/BestSellers.tsx'
 import { Reasons } from './components/Reasons.tsx'
 import { Ready } from './components/Ready.tsx'
 import { Footer } from './components/Footer.tsx'
@@ -13,8 +14,9 @@ function Page () {
 		<div className='home-page'>
 			<Navbar />
 			<HeroSection />
+			{/*<Services />*/}
 			<Benefits />
-			{/*<BestSellers />*/}
+			<BestSellers />
 			<Reasons />
 			<Ready />
 			<Footer />
